@@ -23,7 +23,7 @@ class DemoApplicationTests {
 	UserService userService;
 	@Test
 	void contextLoads() {
-		List<User> users = userService.getUsers();
+//		List<User> users = userService.getUsers();
 //		assertNotNull(users);
 //		assertEquals(10, users.size());
 
