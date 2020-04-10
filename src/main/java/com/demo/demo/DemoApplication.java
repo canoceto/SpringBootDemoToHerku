@@ -30,7 +30,7 @@ public class DemoApplication {
             repository.save(new User("Michelle", "Dessler@"));
 
             // fetch all customers
-            log.info("Customers found with findAll():");
+            log.info("Customers found with ");
             log.info("-------------------------------");
             for (User users : repository.findAll()) {
                 log.info(users.toString());
